@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style="height: 95%;">
+
+<head>
+  {% include Head.html %}
+</head>
+
+<body>
+  <div style="flex: 1 0 auto;">
+    <h1 class="Title">{{site.title}}</h1>
+    <div class="Center">
+      <img class="Thats_me" src="/assets/Images/Thats_me.svg">
+      <img class="MyFace" src="/assets/Images/Face.jpg">
+    </div>
+
+
+    <div style="display: flex; flex-wrap: wrap;">
+      {%- for post in site.Projects -%}
+      <a href="{{post.url}}" class="grow" >
+        <div class="homePostDiv">
+
+          {%- if post.ImageUrl -%}
+
+          <img class="DivPostImage" src="{{post.ImageUrl}}">
+
+          {%- endif -%}
+          <div class="homeposttextdiv">
+            <h2 class="homePostTitle"> {{ post.title }} </h2>
+            <p class="PostDescription"> {{post.excerpt}}</p>
+          </div>
+        </div>
+        {%- endfor -%}
+    </div>
+
+
+    </a>
+
+  </div>
+  {% include Footer.html %}
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+
+<div style="flex-wrap: wrap; flex-direction: row; display: flex;">
+    <div style="width: 50%; padding-left: 25%; line-height: 1.5;">
+        {%- if page.ImageUrl -%}
+        <img src="{{ page.ImageUrl }}" align="left" class="TopPostImage">
+        {%- endif -%}
+        {{content}}
+    </div>
+    <div style="text-align: center; width: 250px; font-family: 'FredsFont'; font-size: 30px; line-height: 1.8;">
+        <h3> Other posts: </h2>
+        {%- for post in site.Projects -%}
+        <div class="grow" >
+            <a href="{{post.url}}"   >{{post.title}}</a>
+            <br>
+        </div>
+        {%-endfor-%}
+    </div>
+</div>
