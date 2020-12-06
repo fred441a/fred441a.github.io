@@ -8,6 +8,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto";
 }
 
 .Title {
@@ -83,9 +84,44 @@ a {
 }
 
 .TopPostImage {
-    max-width: 20%;
+    max-width: 50%;
     padding: 1%;
 }
+
+h1{
+    font-family: "Fredsfont";
+    font-size: 50px;
+}
+
+h2{
+    font-family: "Fredsfont";
+}
+
+h3{
+    font-family: "Fredsfont";
+}
+
+    
+.MainPostContent{
+    width: 50%; padding-left: 25%; line-height: 1.5;
+}
+
+@media (max-aspect-ratio: 9/7) {
+    .MainPostContent{
+        width: 100%; padding-left: 0%; line-height: 1.5;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 .grow {
     transition: all .2s ease-in-out;
@@ -94,6 +130,7 @@ a {
 .grow:hover {
     transform: scale(1.03);
 }
+
 
 /*Code highlights*/
 
