@@ -45,3 +45,6 @@ you can see the source code for the site [*here*](https://github.com/fred441a/fr
 and you can read more about jekyll [*here*](https://jekyllrb.com/)
 # Css flexbox:
 It's has probably been way too long since i have done front end html web development. or maybe i was just not so observant back then i did. but some time around 2013 i started to hear about this css flexbox thing, but i never really used it. i just kinda stuck to my old bootstrap and weird js built ind sizing solutions. and i just wanted to say. im sorry css flexbox, i don't know why i didn't use you. Whether it was neglect or just pure ignorance. but i used you now.... and boy do i like you.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTI3MTY1NDAyXX0=
+-->
