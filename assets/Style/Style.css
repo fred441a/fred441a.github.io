@@ -22,15 +22,38 @@ body {
     width: 45%;
 }
 
+.FaceDiv{
+    position: relative;
+}
+
 .MyFace {
+    position: relative;
+    top: 0;
+    left: 0;
     border-radius: 100%;
-    width: 45%;
+    width: 70%;
+}
+
+.DealWithIt{
+    transition: all .2s ease-in-out;
+    width: 70%;
+    left: 0;
+    top:-50px;
+    position: absolute;
+    opacity: 0%;
+    padding-bottom: 50px;
+}
+
+.DealWithIt:hover{
+    opacity: 100%;
+    transform: translatey(50px);
 }
 
 .Center {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    display: flex;
 }
 
 footer {

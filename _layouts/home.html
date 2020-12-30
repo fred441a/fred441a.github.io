@@ -10,13 +10,16 @@
     <h1 class="Title">{{site.title}}</h1>
     <div class="Center">
       <img class="Thats_me" src="/assets/Images/Thats_me.svg">
-      <img class="MyFace" src="/assets/Images/Face.jpg">
+      <a class="FaceDiv" href="/about.html">
+        <img class="MyFace" src="/assets/Images/Face.jpg">
+        <img class="DealWithIt" src="/assets/Images/DealWithItSunGlasses.png">
+      </a>
     </div>
 
 
     <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
       {%- for post in site.Projects -%}
-      <a href="{{post.url}}" class="grow" >
+      <a href="{{post.url}}" class="grow">
         <div class="homePostDiv">
 
           {%- if post.ImageUrl -%}
