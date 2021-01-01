@@ -23,9 +23,8 @@ email: Frederik@altofte.dk
 name: Frederik Hansen
 logo: /assets/Images/Favicon/android-chrome-512x512.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+Electronics programming and engineering. This portfolio will contain anything from php to Rust, from embedded linux to regular linux,
+from resistors to microchips. Really any hobby or school project i find cool enough to save so that i can show it to friends or potential employers ;P
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fred441a
