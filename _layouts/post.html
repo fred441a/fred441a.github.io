@@ -6,11 +6,11 @@ layout: default
 <div style="flex-wrap: wrap; flex-direction: row; display: flex;">
     <div Class="MainPostContent" >
         {%- if page.ImageUrl -%}
-        <img src="{{ page.ImageUrl }}" align="left" class="TopPostImage">
+        <img src="{{ page.image }}" align="left" class="TopPostImage">
         {%- endif -%}
         {{content}}
     </div>
-    <div style="text-align: center; width: 250px; font-family: 'FredsFont'; font-size: 30px; line-height: 1.8;">
+    <div class="OtherPosts">
         <h3> Other posts: </h2>
         {%- for post in site.Projects -%}
         <div class="grow" >

@@ -21,6 +21,7 @@
 title: Freds coolio portfolio
 email: Frederik@altofte.dk
 name: Frederik Hansen
+logo: /assets/Images/Favicon/android-chrome-512x512.png
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -36,6 +37,18 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+webmaster_verifications:
+  google: pmXNqlJhQGuGjdiJ58Oi-rhEML_MFXrVcXyYbsSCTNg
+
+social:
+  name: Frederik Hansen
+  links:
+    - https://www.facebook.com/frederik.hansen.773981
+    - https://github.com/fred441a
+    - https://www.linkedin.com/in/frederik-s-hansen/
+    - https://www.youtube.com/channel/UCTpBW6hf34C6dyzSxmHBo6Q
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

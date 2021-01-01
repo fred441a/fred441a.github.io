@@ -3,7 +3,7 @@ layout: post
 title: "VeryManyGames"
 date: 2020-11-23
 categories: [Flutter,App development,GraphicDesign,Marketing,Google play store, Android, IOS, SEO, Admob, Google ads, nodejs, docker]
-ImageUrl: /assets/Images/WhoMeLogo.svg
+image: /assets/Images/WhoMeLogo.svg
 ---
 All the way back in december of last year. My girlfriend got a great idea for a drinking game. And i thought "hey, why not make that?" that drinking game idea turned into a small fake company called VeryManyGames. And a whole bunch of other, relatively futile exercises. 
 
