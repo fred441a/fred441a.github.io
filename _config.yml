@@ -23,19 +23,19 @@ email: Frederik@altofte.dk
 name: Frederik Hansen
 logo: /assets/Images/Favicon/android-chrome-512x512.png
 description: >- # this means to ignore newlines until "baseurl:"
-Electronics programming and engineering. This portfolio will contain anything from php to Rust, from embedded linux to regular linux,
-from resistors to microchips. Really any hobby or school project i find cool enough to save so that i can show it to friends or potential employers ;P
+  Electronics programming and engineering. This portfolio will contain anything from php to Rust, 
+  from embedded linux to regular linux,from resistors to microchips. 
+  Really any hobby or school project i find cool enough to save so that i can show it to friends or potential employers ;P'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  fred441a
 
 excerpt_separator: <!--more-->
 
-# Build settings
-#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 webmaster_verifications:
   google: pmXNqlJhQGuGjdiJ58Oi-rhEML_MFXrVcXyYbsSCTNg

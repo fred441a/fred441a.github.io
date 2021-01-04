@@ -30,4 +30,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 #SEO plugin so you can find my website ;P
 gem 'jekyll-seo-tag'
-
+#sitemap plugin
+gem 'jekyll-sitemap'
