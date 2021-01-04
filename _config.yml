@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   from embedded linux to regular linux,from resistors to microchips. 
   Really any hobby or school project i find cool enough to save so that i can show it to friends or potential employers ;P'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "fred441a.github.io"
+url: "https://fred441a.github.io/"
 github_username:  fred441a
 
 excerpt_separator: <!--more-->
