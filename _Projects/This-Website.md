@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This Website"
-Date: 2020-11-21
+date: 2020-11-21
 categories: [HTML, CSS, Web, Jekyll Github, GraphicDesign]
 ---
 In this post i will be discussion the creation of this very website, and the stuff i think is fun and interesting. And things i learned along the way of making it.

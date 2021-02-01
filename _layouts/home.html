@@ -18,7 +18,8 @@
 
 
     <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
-      {%- for post in site.Projects -%}
+      {% assign ProjectPost = site.Projects | sort: 'date' | reverse %}
+      {%- for post in ProjectPost -%}
       <a href="{{post.url}}" class="grow">
         <div class="homePostDiv">
 
