@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+
+<div style="flex-wrap: wrap; flex-direction: row; display: flex;">
+        <div Class="MainPostContent" style="padding-bottom: 20%;">
+            <h1>{{page.title}}</h1>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{page.vid-id}}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            {{content}}
+        </div>
+    <div class="OtherPosts">
+        <h3> Other posts: </h2>
+            {%- for post in site.Projects -%}
+            <div class="grow">
+                <a href="{{post.url}}">{{post.title}}</a>
+                <br>
+            </div>
+            {%-endfor-%}
+    </div>
+</div>

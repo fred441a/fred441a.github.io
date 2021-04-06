@@ -1,10 +1,12 @@
+<!--
 ---
-layout: post
-title: "Github Course"
-date: 2021-02-02
-categories:
-image: /assets/Images/Git-XKCDComic.png
+#layout: post
+#title: "Github Course"
+#date: 2021-02-02
+#categories:
+#image: /assets/Images/Git-XKCDComic.png
 ---
+-->
 
 <!--more-->
 

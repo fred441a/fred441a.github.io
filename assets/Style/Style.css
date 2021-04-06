@@ -101,6 +101,16 @@ footer {
     height: 100%;
 }
 
+@-moz-document url-prefix() {
+    .DivPostImage {
+        mask-image: url(/assets/Images/boxinverted.svg);
+        -webkit-mask-image: url(/assets/Images/boxinverted.svg);
+        object-fit: none;
+        width: 120%;
+        height: 100%;
+    }
+  }
+
 a {
     text-decoration: none;
     color: black;
